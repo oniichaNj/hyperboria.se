@@ -17,18 +17,19 @@
         <p>Den svenska sidan för allt om Hyperboria</p>
 
         <p class="view">
-            <a href="index.html">index</a>
-            <br />
-            <a href="ordlista.html">ordlista</a>
-        </p>
-
-        <p class="view">Externa länkar:
-            <br />
-            <a href="https://github.com/cjdelisle/cjdns">cjdns</a>
+          <a href="index.html">index</a>
+          <br />
+          <a href="ordlista.html">ordlista</a>
         </p>
 
         <p class="view">
-            IRC: <a href="irc://irc.hypeirc.net/#sweden">HypeIRC/#sweden</a>
+          Externa länkar:
+          <br />
+          <a href="https://github.com/cjdelisle/cjdns">cjdns</a>
+        </p>
+
+        <p class="view">
+          IRC: <a href="irc://irc.hypeirc.net/#sweden">HypeIRC/#sweden</a>
         </p>
       </header>
 
@@ -45,59 +46,59 @@
         <p>Att komma igång med cjdns och hyperboria är väldigt lätt, det är bara att följa dessa steg:</p>
 
         <ol>
-            <li>Installera cjdns på din dator.
-                <br /><br />
+          <li>Installera cjdns på din dator.
+            <br /><br />
 
-                Detaljerna för detta steg beror på ditt operativsystem, men i många fall så kommer det inte finnas några färdigbyggda paket för ditt operativsystem, vilket betyder att du kommer behöva kompilera cjdns manuellt. Oroa dig inte dock, det är väldigt enkel.
-                <br /><br />
-                Se den <a href="https://github.com/cjdelisle/cjdns#how-to-install-cjdns">här</a> länken för mer information.
-            </li>
-            <br/>
+            Detaljerna för detta steg beror på ditt operativsystem, men i många fall så kommer det inte finnas några färdigbyggda paket för ditt operativsystem, vilket betyder att du kommer behöva kompilera cjdns manuellt. Oroa dig inte dock, det är väldigt enkel.
+            <br /><br />
+            Se den <a href="https://github.com/cjdelisle/cjdns#how-to-install-cjdns">här</a> länken för mer information.
+          </li>
+          <br/>
 
-            <li>Konfigurera cjdns.
-                <br /><br />
+          <li>Konfigurera cjdns.
+            <br /><br />
 
-                För att skapa en initial konfigurationsfil kan du använda det följande kommandot om du använder ett UNIX-likt operativsystem:
-                <code>cjdroute --genconf &gt; /etc/cjdroute.conf</code>
-                <br /><br />
-            </li>
-            <br />
+            För att skapa en initial konfigurationsfil kan du använda det följande kommandot om du använder ett UNIX-likt operativsystem:
+            <code>cjdroute --genconf &gt; /etc/cjdroute.conf</code>
+            <br /><br />
+          </li>
+          <br />
 
-            <li>Hitta någon nod att peera med.
-                <br /><br />
+          <li>Hitta någon nod att peera med.
+            <br /><br />
 
-                En <code>peer</code> är en annan nod som din nod kommer prata med för att komma åt hyperborianätverket. För att hitta en eller två första peers kan du skicka mig ett e-mail på <a href="mailto:johannes@kyriasis.com">johannes@kyriasis.com</a>, eller använda någon som är listad i <a href="https://github.com/hyperboria/peers">detta</a> GitHub repo.
-            </li>
-            <br />
+            En <code>peer</code> är en annan nod som din nod kommer prata med för att komma åt hyperborianätverket. För att hitta en eller två första peers kan du skicka mig ett e-mail på <a href="mailto:johannes@kyriasis.com">johannes@kyriasis.com</a>, eller använda någon som är listad i <a href="https://github.com/hyperboria/peers">detta</a> GitHub repo.
+          </li>
+          <br />
 
-            <li>Lägg in din peer i <code>cjdroute.conf</code>
-                <br /><br />
+          <li>Lägg in din peer i <code>cjdroute.conf</code>
+            <br /><br />
 
-                Öppna <code>cjdroute.conf</code> som vi genererade tidigare, och leta reda på linjen som innehåller
-                <br /><br />
+            Öppna <code>cjdroute.conf</code> som vi genererade tidigare, och leta reda på linjen som innehåller
+            <br /><br />
 
-                <code>"connectTo": {</code>
-                <br /><br />
+            <code>"connectTo": {</code>
+            <br /><br />
 
-                Sen lägger du in JSON fragmentet med din peers info efter den linjen och sparar filen.
-            </li>
-            <br />
+            Sen lägger du in JSON fragmentet med din peers info efter den linjen och sparar filen.
+          </li>
+          <br />
 
-            <li>Starta cjdns.
-                <br /><br />
+          <li>Starta cjdns.
+            <br /><br />
 
-                Detta steg kan variera beroende på hur du installerade cjdns, men antingen så kan du använda ditt operativsystems servicehanterare till att starta cjdns, eller starta det manuellt. Till exempel:
-                <br /><br />
+            Detta steg kan variera beroende på hur du installerade cjdns, men antingen så kan du använda ditt operativsystems servicehanterare till att starta cjdns, eller starta det manuellt. Till exempel:
+            <br /><br />
 
-                <code>/usr/bin/cjdroute &lt;/etc/cjdroute.conf</code>
-            </li>
-            <br />
+            <code>/usr/bin/cjdroute &lt;/etc/cjdroute.conf</code>
+          </li>
+          <br />
 
-            <li>Klart!
-                <br /><br />
+          <li>Klart!
+            <br /><br />
 
-                Grattis, du har nu installerat och konfigurerat cjdns, och bör kunna använda tjänster tillgängliga från Hyperboria. Nästa steg är bland annat att ansluta till HypeIRC som är ett IRC nätverk som bara är tillgängligt från Hyperboria. Du bör nu kunna ansluta till HypeIRC med din IRC klient genom att ansluta till <code>irc.hypeirc.net</code>.
-            </li>
+            Grattis, du har nu installerat och konfigurerat cjdns, och bör kunna använda tjänster tillgängliga från Hyperboria. Nästa steg är bland annat att ansluta till HypeIRC som är ett IRC nätverk som bara är tillgängligt från Hyperboria. Du bör nu kunna ansluta till HypeIRC med din IRC klient genom att ansluta till <code>irc.hypeirc.net</code>.
+          </li>
         </ol>
       </section>
 
@@ -111,3 +112,5 @@
     <script src="javascripts/scale.fix.js"></script>
   </body>
 </html>
+
+<!-- vim: set et ts=2 sts=2 sw=2: ->
