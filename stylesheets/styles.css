@@ -110,6 +110,11 @@ header {
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
+header #logo {
+  width: 195px;
+  padding-bottom: 10px;
+}
+
 header ul {
   list-style:none;
   height:40px;
