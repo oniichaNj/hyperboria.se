@@ -14,7 +14,10 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="hyperboria-se.svg">
+   sodipodi:docname="hyperboria-se.svg"
+   inkscape:export-filename="hyperboria-se.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -25,8 +28,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="627.40031"
-     inkscape:cy="493.58817"
+     inkscape:cx="577.11547"
+     inkscape:cy="467.60253"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -55,48 +58,52 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-34.73646,-475.95033)">
-    <polygon
-       stroke-miterlimit="10"
-       points="440.9,169 372.5,208.5 304.1,168.9 304.1,90 372.6,50.5 440.9,90 "
-       id="polygon3030"
-       style="opacity:0.5;fill:#ffffff;stroke:#057be7;stroke-width:26;stroke-miterlimit:10;stroke-opacity:1"
-       transform="translate(-152.16266,466.44796)" />
-    <polygon
-       stroke-miterlimit="10"
-       points="619.9,169 551.5,208.5 483.1,168.9 483.1,90 551.6,50.5 619.9,90 "
-       id="polygon3032"
-       style="fill:#ffffff;stroke:#fde123;stroke-width:26;stroke-miterlimit:10;stroke-opacity:1"
-       transform="translate(-152.16266,466.44796)" />
-    <polygon
-       stroke-miterlimit="10"
-       points="530.9,322 462.5,361.5 394.1,321.9 394.1,243 462.6,203.5 530.9,243 "
-       id="polygon3034"
-       style="fill:#ffffff;stroke:#fde123;stroke-width:26;stroke-miterlimit:10;stroke-opacity:1"
-       transform="translate(-152.16266,466.44796)" />
-    <polygon
-       stroke-miterlimit="10"
-       points="707.9,323 639.5,362.5 571.1,322.9 571.1,244 639.6,204.5 707.9,244 "
-       id="polygon3038"
-       style="opacity:0.5;fill:#ffffff;stroke:#057be7;stroke-width:26;stroke-miterlimit:10;stroke-opacity:1"
-       transform="translate(-152.16266,466.44796)" />
-    <polygon
-       stroke-miterlimit="10"
-       points="440.9,479 372.5,518.5 304.1,478.9 304.1,400 372.6,360.5 440.9,400 "
-       id="polygon3040"
-       style="fill:#ffffff;stroke:#fde123;stroke-width:26;stroke-miterlimit:10;stroke-opacity:1"
-       transform="translate(-152.16266,466.44796)" />
-    <polygon
-       stroke-miterlimit="10"
-       points="619.9,479 551.5,518.5 483.1,478.9 483.1,400 551.6,360.5 619.9,400 "
-       id="polygon3042"
-       style="opacity:0.5;fill:#ffffff;stroke:#057be7;stroke-width:26;stroke-miterlimit:10;stroke-opacity:1"
-       transform="translate(-152.16266,466.44796)" />
-    <polygon
-       stroke-miterlimit="10"
-       points="372.6,50.5 440.9,90 440.9,169 372.5,208.5 304.1,168.9 304.1,90 "
-       id="polygon3030-0"
-       style="opacity:0.5;fill:#ffffff;stroke:#057be7;stroke-width:26;stroke-miterlimit:10;stroke-opacity:1"
-       transform="translate(-240.36441,620.94409)" />
+     transform="translate(-50.73559,-449.96469)">
+    <g
+       id="g4419"
+       transform="translate(15.999125,-25.985644)">
+      <polygon
+         transform="translate(-152.16266,466.44796)"
+         style="opacity:0.5;fill:#ffffff;stroke:#057be7;stroke-width:26;stroke-miterlimit:10;stroke-opacity:1"
+         id="polygon3030"
+         points="440.9,90 440.9,169 372.5,208.5 304.1,168.9 304.1,90 372.6,50.5 "
+         stroke-miterlimit="10" />
+      <polygon
+         transform="translate(-152.16266,466.44796)"
+         style="fill:#ffffff;stroke:#fde123;stroke-width:26;stroke-miterlimit:10;stroke-opacity:1"
+         id="polygon3032"
+         points="619.9,90 619.9,169 551.5,208.5 483.1,168.9 483.1,90 551.6,50.5 "
+         stroke-miterlimit="10" />
+      <polygon
+         transform="translate(-152.16266,466.44796)"
+         style="fill:#ffffff;stroke:#fde123;stroke-width:26;stroke-miterlimit:10;stroke-opacity:1"
+         id="polygon3034"
+         points="530.9,243 530.9,322 462.5,361.5 394.1,321.9 394.1,243 462.6,203.5 "
+         stroke-miterlimit="10" />
+      <polygon
+         transform="translate(-152.16266,466.44796)"
+         style="opacity:0.5;fill:#ffffff;stroke:#057be7;stroke-width:26;stroke-miterlimit:10;stroke-opacity:1"
+         id="polygon3038"
+         points="707.9,244 707.9,323 639.5,362.5 571.1,322.9 571.1,244 639.6,204.5 "
+         stroke-miterlimit="10" />
+      <polygon
+         transform="translate(-152.16266,466.44796)"
+         style="fill:#ffffff;stroke:#fde123;stroke-width:26;stroke-miterlimit:10;stroke-opacity:1"
+         id="polygon3040"
+         points="440.9,400 440.9,479 372.5,518.5 304.1,478.9 304.1,400 372.6,360.5 "
+         stroke-miterlimit="10" />
+      <polygon
+         transform="translate(-152.16266,466.44796)"
+         style="opacity:0.5;fill:#ffffff;stroke:#057be7;stroke-width:26;stroke-miterlimit:10;stroke-opacity:1"
+         id="polygon3042"
+         points="619.9,400 619.9,479 551.5,518.5 483.1,478.9 483.1,400 551.6,360.5 "
+         stroke-miterlimit="10" />
+      <polygon
+         transform="translate(-240.36441,620.94409)"
+         style="opacity:0.5;fill:#ffffff;stroke:#057be7;stroke-width:26;stroke-miterlimit:10;stroke-opacity:1"
+         id="polygon3030-0"
+         points="304.1,90 372.6,50.5 440.9,90 440.9,169 372.5,208.5 304.1,168.9 "
+         stroke-miterlimit="10" />
+    </g>
   </g>
 </svg>
